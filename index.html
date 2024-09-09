@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .parent{
+            height: 695px;
+            width: 100%;
+            background-color: pink;
+        }
+        @media all and (max-width:900px){
+            .parent{
+                background-color: blue;
+            }
+        }
+        @media all and (max-width:500px){
+            .parent{
+                background-color: cornflowerblue;
+            }
+        }
+        @media all and (max-width: 300px){
+            .parent{
+                background-color: yellow;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parent"></div>
+</body>
+</html>
